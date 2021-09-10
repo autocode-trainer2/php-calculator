@@ -40,6 +40,6 @@ class MiniCalcTest extends TestCase
 
     public function testFactorial()
         {
-            $this->assertEquals(2, $this->calc->factorial(5));
+            $this->assertEquals(2, $this->calc->factorial(2));
         }
 }
