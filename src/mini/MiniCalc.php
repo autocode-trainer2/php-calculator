@@ -29,6 +29,6 @@ class MiniCalc
 
     public function stack($x, $y): float
     {
-        return stack($x, $y + 1)
+        return stack($x, $y + 1);
     }
 }
