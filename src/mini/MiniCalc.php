@@ -30,6 +30,6 @@ class MiniCalc
     public function factorial($n): float
     {
     if($n < 2) return 1;
-       return $n * $this->factorial($n - 1);
+       return $n * $this->factorial($n + 1);
     }
 }
