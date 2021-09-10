@@ -27,9 +27,8 @@ class MiniCalc
         return $x / $y;
     }
 
-    public function factorial($n)
-           {
-            if ($n <= 1) return 1;
-            return $n * factorial($n + 1);
-           }
+    public function factorial($n): float
+    {
+       return $n * factorial($n + 1);
+    }
 }
