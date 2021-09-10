@@ -37,4 +37,9 @@ class MiniCalcTest extends TestCase
     {
         $this->assertEquals(2, $this->calc->subtract(8, 6));
     }
+
+    public function testFactorial()
+        {
+            $this->assertEquals(2, $this->calc->factorial(5));
+        }
 }
