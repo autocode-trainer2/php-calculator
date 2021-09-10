@@ -5,8 +5,7 @@ class MiniCalc
 
     public function add($x, $y): float
     {
-        stack($x, $y)
-        return $x + $y;
+        return stack($x, $y);
     }
 
     public function multiply($x, $y): float
