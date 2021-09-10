@@ -1,0 +1,1 @@
+phpunit --log-junit phpunit_report.xml

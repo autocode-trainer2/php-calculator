@@ -1,0 +1,5 @@
+/composer.lock
+/phpunit_report.xml
+/composer.phar
+/vendor/
+/.idea/
