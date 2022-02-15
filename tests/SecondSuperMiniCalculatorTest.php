@@ -18,8 +18,4 @@ class SecondSuperMiniCalculatorTest extends TestCase
         $this->assertEquals(24, $this->superCalc->multiply(6, 2, 2));
     }
 
-    public function testAddSecondSuper()
-    {
-        $this->assertEquals(6, $this->superCalc->add(2, 2, 2));
-    }
 }
