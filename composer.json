@@ -1,7 +1,7 @@
 {
   "require": {
-    "phpunit/phpunit": "9.5.0",
-    "phpunit/php-code-coverage": "9.5.0"
+    "phpunit/phpunit": ">=9.5.19",
+    "phpunit/php-code-coverage": ">=9.2.15"
   },
   "autoload": {
     "classmap": [
@@ -9,7 +9,8 @@
     ],
     "files": [
       "src/mini/MiniCalc.php",
-      "src/super/SuperMiniCalculator.php"
+      "src/super/SuperMiniCalculator.php",
+      "src/percent/PercentCalculator.php"
     ]
   }
 }
