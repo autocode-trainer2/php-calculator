@@ -1,7 +1,6 @@
 {
   "require": {
-    "phpunit/phpunit": ">=9.5.19",
-    "phpunit/php-code-coverage": ">=9.2.15"
+    "phpunit/phpunit": ">=9.5.19"
   },
   "autoload": {
     "classmap": [
