@@ -2,10 +2,13 @@
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd">
 
-    <coverage pathCoverage="true">
+    <coverage pathCoverage="true" cacheDirectory ="coverage">
         <include>
             <directory suffix=".php">src</directory>
         </include>
-    </coverage>
 
+        <report>
+            <cobertura outputFile="coverage-report.xml"/>
+        </report>
+    </coverage>
 </phpunit>
